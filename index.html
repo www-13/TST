@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <nav>
+        <h1 style="color: yellow;">FouraType</h1>
+        <ul>
+            <li><h2 id="idk">0:00</h2></li>
+            <li><a id="res-btn" href="#">Restart Test</a></li>
+        </ul>
+    </nav>
+
+ <div class="app">
+    <div class="time-options">
+        <button data-time="15" class="active">15</button>
+        <button data-time="30">30</button>
+        <button data-time="60">60</button>
+        <button data-time="120">120</button>
+      </div>
+    
+      <div id="word-box"></div>
+      <input type="text" id="hidden-input" autofocus>
+
+      <div class="data">
+            <h2 id="wpm-text">WPM: </h2>
+            <h2 id="acc-text">ACC: </h2>
+      </div>
+ </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
